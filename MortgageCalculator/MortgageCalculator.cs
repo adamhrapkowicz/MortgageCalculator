@@ -1,6 +1,6 @@
 ﻿public class MortgageCalculator
 {
-    internal object CalculateCost(double price, double annualIntrest, double numberOfYears)
+    internal static object CalculateCost(double price, double annualIntrest, double numberOfYears)
     {
         double cost = 0;
         var remainingAmount = price;
