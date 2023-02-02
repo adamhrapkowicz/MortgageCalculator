@@ -13,6 +13,7 @@
             cost += remainingAmount * monthlyIntrest;
             remainingAmount -= monthlyPayment;
         }
+
         return cost;
     }
 }
