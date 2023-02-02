@@ -9,7 +9,7 @@ public class Program
         var numberOfYears = GetNumberOfYearsFromUsersValidated();
 
         var mortgageCalculator = new MortgageCalculator();
-        var cost = mortgageCalculator.CalculateCost(price, annualIntrest, numberOfYears);
+        var cost = MortgageCalculator.CalculateCost(price, annualIntrest, numberOfYears);
         Console.WriteLine($"The cost of your mortgage is £{cost:N2} on top of what you borrow.");
     }
 
